@@ -1,0 +1,442 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 14px !important;
+}
+/*header */
+.btn-theme {
+    border: solid 1px #e4bca9;
+    background-color: rgba(213, 178, 157, 0.25);
+    color: #1f1f1f;
+}
+.nav-item:hover {
+    text-decoration: underline;
+    color: #e4bca9;
+    transition: ease-in-out 3.s
+}
+/*banner*/
+.font-90 {
+    font-size: 90px !important;
+}
+.banner-sec .img-box {
+    width: 50%;
+    margin-top: 20px;
+}
+.banner-sec .text-box {
+    width: 50%;
+    margin-left: 186px;
+}
+.banner-sec h1 {
+    margin-left: 20px;
+}
+.banner-sec p {
+    font-size: 18px;
+    margin-left: 29px;
+}
+.download-icon {
+    margin-top: -35%;
+    margin-left: 60%;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-store-icon {
+    margin-right: 62px;
+}
+/*welcome sec */
+.welcome-sec .img-box {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -283px;
+}
+.welcome-sec .text-box {
+    width: 50%;
+    margin-top: 20px;
+}
+.welcome-sec .text-box h2 {
+    font-size: 50px;
+}
+.img-fluid-1 {
+    max-width: 100%;
+    height: auto;
+    width: 69%;
+}
+.img-1 {
+    margin-top: -199px;
+    width: 45%;
+    /* height: 62vh; */
+    margin-left: 4px;
+}
+/*quality-sec */
+.quality-sec {
+    margin-top: 50px;
+}
+.quality-sec .text-box {
+    background-color: rgba(213, 178, 157, 0.25);
+    border: solid 1px #eebaa7;
+    width: 33.33%;
+}
+.quality-sec .text-box h4 {
+    text-align: center;
+}
+.quality-sec .text-box p {
+    text-align: center;
+}
+.text-centre {
+    text-align: center;
+}
+/*why-mobile-beauty-sec */
+.why-mobilebeauty-sec {
+    margin-top: 20px;
+    background-color: rgba(213, 178, 157, 0.25);
+}
+
+.why-mobilebeauty-sec .text-box {
+    width: 50%;
+    margin-top: 20px;
+   /* background-color: #e4bca9;*/
+}
+.why-mobilebeauty-sec .img-box {
+    width: 25%;
+}
+.why-mobilebeauty-sec .img-box img{
+    margin-top: -85%;
+    margin-left: 207%;
+}
+.why-mobilebeauty-sec .img-box-1 {
+    width: 50%;
+}
+.why-mobilebeauty-sec .img-box-1 img {
+    margin-top: -55%;
+    margin-left: 153%;
+    width: 50%;
+}
+/*service provide */
+.service-provider {
+    background-color: rgba(213, 178, 157, 0.25);
+}
+.service-provider .img-box {
+    width: 33.33%;
+    margin-left: 20px;
+}
+.service-provider .btn-area {
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.btn-theme-2 {
+    border: solid 1px #e4bca9;
+    background-color: rgba(213, 178, 157, 0.25); #e4bca9;
+    color: #1f1f1f;
+    padding: 8px 7px 0px 13px;
+}
+.service-provider .img-box {
+    width: 100px;
+    margin: 0 auto;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+}
+.py-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.font-12 {
+    font-size: 12px !important;
+}
+.font-36 {
+    font-size: 36px !important;
+}
+span {
+    color: #e4bca9;
+}
+.btn-theme-3 {
+    border: solid 1px #e4bca9;
+    background-color: rgba(213, 178, 157, 0.25); #e4bca9;
+    color: #1f1f1f;
+    padding: 7px 15px 5px 14px;
+}
+.form-control-1 {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 28vh;
+}
+/* apponintment*/
+.appointment-sec .text-box h2 {
+    margin-top: -120px;
+    margin-left: 20px;
+}
+/*footer*/
+footer {
+    margin-top: 20px;
+}
+.box-1 {
+    margin-left: 1%;
+    width: 33.33%;
+}
+.box-2 {
+    margin-top: -2px;
+    margin-left: 2%;
+    width: 33.33%;
+}
+.box-3 {
+    margin-top: -2px;
+    margin-left: 2%;
+    width: 33.33%;
+}
+.icon-box {
+    margin-left: 50%; 
+    font-size: 35px;
+}
+.fa-google-play {
+    margin-left: 45px;
+    font-size: 50px;
+}
+.fa-app-store-ios {
+    margin-left: 100px;
+    font-size: 50px;
+}
+.terms {
+    margin-top: -91px;
+    margin-left: 79%
+}
+/*RESPONSIVE START*/
+@media screen and (max-width: 1199px) {
+    .download-icon {
+        margin-top: -31%;
+        margin-left: 32%;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-sec .img-box img {
+        width: 75%;
+    }
+    .banner-sec p {
+        font-size: 12px;
+        margin-left: 18px;
+        width: 64%;
+    }
+    .banner-sec h1 {
+        margin-left: 20px;
+        font-size: 50px !important;
+    }
+    .banner-sec .text-box {
+        width: 50%;
+        margin-left: -20px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .welcome-sec {
+        margin-top: 20px;
+    }
+    .welcome-sec .text-box h2 {
+        font-size: 41px;
+    }
+    .welcome-sec .text-box p {
+        font-size: 14px;
+    }
+    .quality-sec {
+        margin-top: 50px;
+        margin-right: 34px;
+    }
+    .quality-sec .text-box p {
+        text-align: center;
+        font-size: 14px;
+    }
+    .why-mobilebeauty-sec .text-box p {
+        font-size: 14px;
+    }
+    .why-mobilebeauty-sec .img-box img {
+        margin-top: -93%;
+        margin-left: 205%;
+    }
+    .services-sec {
+        margin-top: 20px;
+    }
+    .contact-sec .img-box img {
+        width: 149%;
+    }
+    .appointment-sec .text-box h1 {
+        margin-top: -120px;
+        margin-left: 20px;
+        font-size: 26px !important; 
+    }
+}
+@media screen and (max-width: 991px) {
+    .navbar-toggler .collapse {
+        margin-left: 59%;
+    }
+    .banner-sec h1 {
+        font-size: 50px !important;
+        margin-left: 46px;
+    }
+    .download-icon {
+        margin-top: -37%;
+        margin-left: 60%;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcome-sec .text-box h2 {
+        font-size: 35px !important;
+    }
+    .welcome-sec .img-box {
+        width: 54%;
+        margin-left: 64%;
+        margin-top: -259px;
+    }
+    .quality-sec {
+        margin-top: 50px;
+        width: 110%;
+    }
+    .quality-sec .text-box {
+        background-color: rgba(213, 178, 157, 0.25);
+        border: solid 1px #eebaa7;
+        width: 35%;
+    }
+    .why-mobilebeauty-sec .img-box img {
+        margin-top: -206%;
+        margin-left: 208%;
+        height: 90vh;
+    }
+    .why-mobilebeauty-sec .img-box-1 img {
+        margin-top: -116%;
+        margin-left: 157%;
+        width: 55%;
+        height: 90vh;
+    }
+    .appointment-sec .text-box h2 {
+        margin-top: -102px;
+        margin-left: 20px;
+        font-size: 20px !important;
+    }
+    .banner-sec .img-box img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .navbar-toggler {
+        margin-left: 48%;
+    }
+    .download-icon {
+        margin-top: -17%;
+        margin-left: 53%;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .quality-sec .text-box {
+        width: 33.33%;
+    }
+    .quality-sec .text-box-3 {
+        width: 33.33%;
+        margin-right: 52px;
+        background-color: rgba(213, 178, 157, 0.25);
+        border: solid 1px #eebaa7;
+    }
+    .why-mobilebeauty-sec .img-box img {
+        margin-top: -385%;
+        margin-left: 208%;
+        height: 100vh;
+        width: 100%;
+    }
+    .why-mobilebeauty-sec .img-box-1 img {
+        margin-top: -225%;
+        margin-left: 158%;
+        width: 46%;
+        height: 90vh;
+    }
+    .box-2 p {
+        width: 91%;
+    }
+    .btn-theme-2 {
+        margin-left: -46px;
+    }
+    .contact-sec .img-box img {
+        width: 100%;
+    }
+    .services-sec h4 {
+        font-size: 27px !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .banner-sec .img-box img{
+        display: none;
+    }
+    .banner-sec h1 {
+        font-size: 53px !important;
+        margin-left: 11px;
+        margin-top: 20px;
+    }
+    .banner-sec .text-box {
+        width: 100%;
+        margin-left: -20px;
+    }
+    .download-icon {
+        margin-top: 0%;
+        margin-left: 7%;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcome-sec .text-box p {
+        font-size: 11px !important;
+    }
+    .welcome-sec .img-box {
+        width: 54%;
+        margin-left: 56%;
+        margin-top: -259px;
+    }
+    .quality-sec {
+        margin-top: 35%;
+        width: 110%;
+    }
+    .appointment-sec .text-box h2 {
+        margin-top: -32px;
+        margin-left: 20px;
+        font-size: 9px !important;
+    }
+    .footer-col p {
+        width: 50%;
+    }
+    .fa-app-store-ios {
+        margin-left: 100px;
+        font-size: 36px;
+    }
+    .fa-google-play {
+        margin-left: 100px;
+        font-size: 50px;
+    }
+    .terms {
+        margin-top: -103px;
+        margin-left: 56%;
+    }
+    .icon-box {
+        margin-left: 28%;
+        font-size: 35px;
+    }
+}
